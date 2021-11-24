@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200;300;500;700&display=swap');
+
+
+:root{
+    --primary-color: #7c3aed;
+    --white-color: #fff;
+    --dark-gray: #4B5563;
+    --light-gray: #E5E7EB;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+/* common */
+.link{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.button{
+    margin: 0 .3rem;
+    padding: 0.4rem 1.3rem;
+    border-radius: 1.5rem;
+}
+
+.button-primary{
+    background-color: var(--primary-color);
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
+}
+
+.button-primary:hover{
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    transition: 0.5s ease;
+}
+
+.button-secondary{
+    background-color: var(--white-color);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.button-secondary:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-color: var(--white-color);
+    transition: 0.5s ease;
+}
+
+.focus-text{
+    color: var(--primary-color);
+}
+
+/* nav bar */
+
+nav {
+    background-color: var(--primary-color);
+    padding: 0.5rem 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: cene;
+}
+.title{
+    display: inline-block;
+    min-width: 185px;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: var(--white-color);
+    padding: 1rem 0rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+nav ul{ 
+    display: inline-block;
+    min-width: 300px;
+    flex-grow: 100;
+    text-align: right;
+    margin-right: 2rem;
+}
+nav li{ display: inline-block;}  
+nav .button-primary{
+    border: unset;
+    margin: 0;
+}
+h1{
+    margin: 0.5rem 0;
+}
+p{
+    margin: 0.5rem 0;
+}
+nav .active{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* header */
+
+header{
+    padding: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+/* figure */
+
+.hero{
+    padding-top: 2rem;
+}
+
+.hero .hero-img{
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
+
+.hero-caption{
+    display: block;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    color: var(--dark-gray);
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+/* .section{
+    margin: 1rem 0;
+} */
+
+.ow{background-color: var(--light-gray) ;}
+.container{
+    max-width: 700px;
+    margin: auto;
+    padding: 0 1.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+/* section */
+.container p{
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+/* footer */
+footer{
+    background-color: var(--primary-color);
+    margin-top: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+.footer-head{
+    color: var(--white-color);
+}
+footer ul li{
+    display: inline-block;
+    margin: 0.5rem 1rem;
+}
