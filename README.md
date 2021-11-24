@@ -1,7 +1,7 @@
 # Mark 04 - My Portfolio
 
 > Created my portfolio with home, project and blog pages.  
-Added all projects and blogs created by me.
+Added links of all projects and blogs created by me.
 
 ### Project links:-
 
